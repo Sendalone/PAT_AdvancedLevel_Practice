@@ -10,7 +10,7 @@ def dfs(node, depth):
             dfs(child, depth + 1)
 
 
-# n为节点数，m为叶子节点数
+# n为节点数，m为父节点数
 n, m = map(int, input().split())
 # 用字典存储树能自动对结点排序避免输入乱序，在tree中只保留所有有子结点的结点
 tree = {}
